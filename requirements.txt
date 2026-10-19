@@ -1,0 +1,18 @@
+# 环境
+# CPU 版 torch 即可运行本仓库全部脚本（约 200MB，无需 CUDA）
+# pip install torch numpy
+#
+# 验证
+# python code/00_dtype_bench.py
+# python code/01_rmsnorm_swiglu.py
+# python code/02_naive_attention.py
+# python code/03_rope.py
+# python code/04_gqa_kvcache.py
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.egg-info/
